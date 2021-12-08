@@ -16,10 +16,10 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using Manager.API.Token;
 using System;
-using EscNet.DependencyInjection.IoC.Cryptography;
 using Manager.Infra.Context;
 using Manager.Infra.Interfaces;
 using Manager.Infra.Repositories;
+using EscNet.IoC.Cryptography;
 
 namespace Manager.API
 {
