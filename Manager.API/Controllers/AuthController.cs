@@ -11,7 +11,6 @@ namespace Manager.API.Controllers
     public class AuthController : ControllerBase
     {
         private readonly IConfiguration _configuration;
-
         private readonly ITokenGenerator _tokenGenerator;
 
         public AuthController(IConfiguration configuration, ITokenGenerator tokenGenerator)

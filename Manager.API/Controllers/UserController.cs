@@ -15,7 +15,6 @@ namespace Manager.API.Controllers
     public class UserController : ControllerBase
     {
         private readonly IMapper _mapper;
-
         private readonly IUserService _userService;
 
         public UserController(IMapper mapper, IUserService userService)
